@@ -17,19 +17,19 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex gap-4 lg:flex mr-10 font-medium text-base text-[#4b4b4b]">
+      <div className="hidden md:flex gap-4 lg:flex mr-10 font-medium text-base text-[#000]">
         <ul>
-          <li>
+          <li className="hover:text-[#3a4d39]">
             <Link to="/">Home Page</Link>
           </li>
         </ul>
         <ul>
-          <li>
+          <li className="hover:text-[#3a4d39]">
             <Link to="/konsultasi">Konsultasi</Link>
           </li>
         </ul>
         <ul>
-          <li>
+          <li className="hover:text-[#3a4d39]">
             <Link to={isLoginPage ? "/register" : "/login"}>
               {isLoginPage ? "Register" : "Login"}
             </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen ? (
-        <div className="absolute top-16 left-0 w-full h-screen bg-white shadow-lg rounded-lg p-6 flex flex-col gap-4 text-lg font-medium text-[#4b4b4b] text-center z-50 md:hidden">
+        <div className="absolute top-16 left-0 w-full h-screen bg-white shadow-lg rounded-lg p-6 flex flex-col gap-4 text-lg font-medium text-[#000] text-center z-50 md:hidden">
           <ul className="flex-col md:hidden">
             <li>
               <Link to="/">Home Page</Link>

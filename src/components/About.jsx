@@ -1,15 +1,15 @@
 import React from "react";
-import Klinik1 from "/assets/klinik1.jpg"
+import Klinik1 from "/assets/klinik1.jpg";
 
 const About = () => {
   return (
     <div className="flex flex-col gap-10 mx-6 my-8 md:flex-row">
       <div className="flex flex-col items-center">
-        <h2 className="text-[#4b4b4b] font-semibold text-xl my-4">About Us!</h2>
-        <img src={Klinik1} alt="" className="w-full h-full"/>
+        <h2 className="text-[#000] font-semibold text-xl my-4">About Us!</h2>
+        <img src={Klinik1} alt="" className="w-full h-full" />
       </div>
       <div className="flex items-center ">
-        <p className="text-[#3A4D39] text-justify">
+        <p className="text-[#000] text-justify text-sm md:text-lg">
           Selamat datang di PsikoHub, tempat yang didedikasikan untuk membantu
           Anda mencapai kesejahteraan mental dan emosional. Kami memahami bahwa
           setiap individu memiliki perjalanan yang unik, dan kami ada untuk
