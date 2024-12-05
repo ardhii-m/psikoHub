@@ -1,0 +1,47 @@
+[
+  {
+    "doctor_id": "D1001",
+    "name": "Nydia Rahmania S. Psi, M. Psi",
+    "rating": 4.9
+  },
+  {
+    "doctor_id": "D1002",
+    "name": "Indira Putri M. Psi, Psikolog",
+    "rating": 4.8
+  },
+  {
+    "doctor_id": "D1003",
+    "name": "Aldo Wirawan M. Psi, Psikolog",
+    "rating": 4.7
+  },  
+  {
+    "doctor_id": "D1004",
+    "name": "Citra Ardhana M. Psi, Psikolog",
+    "rating": 5
+  },  
+  {
+    "doctor_id": "D1005",
+    "name": "Daniel Mahendra S. Psi, M.Psi, Psikolog",
+    "rating": 5
+  },
+  {
+    "doctor_id": "D1006",
+    "name": "Elisa Dharmawati S.Psi, M.Psi, Psikolog",
+    "rating": 4.7
+  },
+  {
+    "doctor_id": "D1007",
+    "name": "Kirana Maheswari M. Psi, Psikolog",
+    "rating": 5
+  },
+  {
+    "doctor_id": "D1008",
+    "name": "Nadia Kartika S. Psi, M.Psi, Psikolog",
+    "rating": 4.8
+  },
+  {
+    "doctor_id": "D1009",
+    "name": "Rahmat Santoso M. Psi, Psikolog",
+    "rating": 4.6
+  }
+]
