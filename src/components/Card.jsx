@@ -1,4 +1,5 @@
 import React from "react";
+
 import { dataDokter } from "../data";
 
 const Card = () => {
@@ -10,6 +11,7 @@ const Card = () => {
           Mari Bertemu dengan Psikolog Profesional dari PsikoHub!
         </div>
         {/* Scroll Item */}
+        <slider></slider>
         <div className="w-screen overflow-x-scroll no-scrollbar">
           <div className="w-max flex">
             {/* Singgle Item */}
